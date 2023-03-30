@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, escape
 from vsearch import search4letters
 import dunder
 
@@ -27,10 +27,10 @@ def entry_page() -> 'html':
 
 
 @app.route('/viewlog')
-def view_the_log() -> 'html':
+def view_the_log() -> str:
     with open('vsearch.log') as log:
         contents = log.read()
-    return contents
+    return escape(contents)
 
 
 if __name__ == '__main__':
