@@ -1,6 +1,5 @@
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'i', 'e'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'e', 'i'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'o'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'e', 'o'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'e'}
-<Request 'http://127.0.0.1:5000/search4' [POST]> {'a', 'i', 'u'}
+ImmutableMultiDict([('phrase', 'herro'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36|{'e', 'o'}
+ImmutableMultiDict([('phrase', 'rice'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36|{'e', 'i'}
+ImmutableMultiDict([('phrase', 'nuggets'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36|{'u', 'e'}
+ImmutableMultiDict([('phrase', 'meep'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36|{'e'}
+ImmutableMultiDict([('phrase', 'budokai tenkaichi'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36|{'i', 'u', 'e', 'o', 'a'}
