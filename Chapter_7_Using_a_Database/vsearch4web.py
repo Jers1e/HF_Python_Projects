@@ -1,3 +1,4 @@
+import mysql.connector
 from flask import Flask, render_template, request, escape
 from vsearch import search4letters
 import dunder
@@ -8,7 +9,6 @@ app = Flask(__name__)
 def log_request(req: 'flask_request', res: str) -> None:
     dbconfig = {'host': '127.0.0.1', 'user': 'root',
                 'password': 'headfirst', 'database': 'vsearchlogDB', }
-    import mysql.connector
 
     #! Don't forget to make sure the SQL server is powered on with sudo service mysql start
     conn = mysql.connector.connect(**dbconfig)
